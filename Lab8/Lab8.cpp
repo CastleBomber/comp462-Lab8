@@ -7,7 +7,7 @@ using namespace std;
 //#define AENABLE_PWM1   33                // physical pin for PWM1
 #define BPHASE          7                // physical pin for GPIO4
 //#define BENABLE_PWM0   12                // physical pin for PWM0
-#define Enable_PWM     12
+#define ENABLE_PWM     12
 
 int main() {                             // must be run as root
    wiringPiSetupPhys();                  // use the physical pin numbers
